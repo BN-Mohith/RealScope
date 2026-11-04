@@ -1,0 +1,87 @@
+RealScope build - 2026-11-04 11:14:10
+
+========================================================================
+STEP 0 - checking your setup
+========================================================================
+Python  : 3.14.10  (C:\Users\bnmoh\OneDrive\Desktop\Data Visualization and Story\.venv\Scripts\python.exe)
+System  : Windows 11
+Project : C:\Users\bnmoh\OneDrive\Desktop\Data Visualization and Story\RealScope\RealScope
+  [OK] Python packages
+  [OK] Tesseract OCR 5.4.0.20240606
+  [OK] Source/lab_manual.pdf (31.5 MB)
+  [OK] specimen list Data/input/specimens.csv
+
+========================================================================
+STEP 1 - pages needed by the specimen list
+========================================================================
+  53 specimens on 14 printed pages: 3, 5, 7, 11, 15, 17, 19, 21, 31, 33, 35, 37, 39, 41
+
+========================================================================
+STEP 2-3 - extract pages and diagrams from the manual
+========================================================================
+  [cache] PDF, page list and extraction settings unchanged - reusing Data/raw_data/
+
+========================================================================
+STEP 4 - match specimens to diagrams (by printed page + name)
+========================================================================
+$ python Scripts/website/catalog.py
+  CSV            : Data/input/specimens.csv  (53 specimens, 14 printed pages)
+  matched        : 53  (0 by closest name)
+  report         : Data/specimen_matching.csv
+[OK] 0s
+
+========================================================================
+STEP 5 - supplied images (downloaded once, then reused)
+========================================================================
+$ python Scripts/fetch/fetch_real_images.py
+  downloaded  960x716  https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Amoeba_proteu...
+  downloaded  960x640  https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Paramecium_bu...
+  downloaded  960x688  https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Vorticella_Co...
+  downloaded  352x288  https://upload.wikimedia.org/wikipedia/commons/a/a4/Rotifer_animation-...
+  links          : 53 distinct  (reused from cache 46, downloaded 4, failed 0, not tried 3)
+  specimens      : 50 of 53 have a supplied image
+  still missing  : 3 - see Data/real_slide_images/FAILED_DOWNLOADS.txt
+                   (links that failed before were not retried - use --retry-failed)
+[OK] 4s
+
+========================================================================
+STEP 6-7 - website images
+========================================================================
+$ python Scripts/website/prepare_display_images.py
+  diagrams       : 0 made, 0 label-free copies  -> C:\Users\bnmoh\OneDrive\Desktop\Data Visualization and Story\RealScope\RealScope\Data\website\img\diagrams
+  manual pages   : 93 (0 new)  -> C:\Users\bnmoh\OneDrive\Desktop\Data Visualization and Story\RealScope\RealScope\Data\website\manual
+[OK] 2s
+$ python Scripts/website/make_mistake_images.py
+  mistake pictures already exist -> C:\Users\bnmoh\OneDrive\Desktop\Data Visualization and Story\RealScope\RealScope\Data\website\img\mistakes  (use --force to redraw)
+[OK] 0s
+
+========================================================================
+STEP 8 - build the website
+========================================================================
+$ python Scripts/website/build_website.py
+  images from link : 3 (no downloaded copy yet - the browser loads them from the supplied link)
+  specimens        : 53  (50 with their supplied image, 3 without)
+  topics shown     : Cell division, Plant reproduction, Plant cells, Animal tissues, Pond water, Parasites
+  manual pages     : 93  (printed page = PDF page - 1)
+  report           : Data/website_report.csv
+  WEBSITE          : C:\Users\bnmoh\OneDrive\Desktop\Data Visualization and Story\RealScope\RealScope\Data\website\index.html
+[OK] 0s
+
+========================================================================
+STEP 9 - check the website
+========================================================================
+$ python Scripts/validation/verify_site.py
+  CSV rows         : 53  (on the site: 53, not matched: 0)
+  diagrams         : 53 checked
+  supplied images  : 50 downloaded copies, 3 loaded from their link in the browser, 0 not available
+  manual           : 93 pages, printed page = PDF page - 1
+  RESULT: PASS
+[OK] 1s
+
+========================================================================
+DONE
+========================================================================
+  Website            : C:\Users\bnmoh\OneDrive\Desktop\Data Visualization and Story\RealScope\RealScope\Data\website\index.html
+  Matching report    : C:\Users\bnmoh\OneDrive\Desktop\Data Visualization and Story\RealScope\RealScope\Data\specimen_matching.csv
+  Images still missing (if any): C:\Users\bnmoh\OneDrive\Desktop\Data Visualization and Story\RealScope\RealScope\Data\real_slide_images\FAILED_DOWNLOADS.txt
+  (opened in your browser)

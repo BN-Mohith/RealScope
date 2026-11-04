@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RealScope</title>
+<meta name="description" content="Microscope slides for first-year biology: zoom into each diagram, compare it with a real photo, and learn the common slide mistakes.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Atkinson+Hyperlegible:wght@400;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-in">
+    <a class="brand" href="#specimens" aria-label="RealScope home">
+      <svg width="30" height="30" viewBox="0 0 32 32" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 3h10v5H11z"/><path d="M12 8l-1 9h10l-1-9"/><circle cx="16" cy="24" r="5"/><circle cx="16" cy="24" r="1.8" fill="#FFC857" stroke="none"/></svg>
+      <span>RealScope</span>
+    </a>
+    <span class="tagline">See it the way it really looks under the microscope.</span>
+    <nav class="nav" aria-label="Main">
+      <a href="#specimens" data-tab="specimens">Specimens</a>
+      <a href="#viewer" data-tab="viewer">Slide viewer</a>
+      <a href="#mistakes" data-tab="mistakes">Mistakes</a>
+      <a href="#manual" data-tab="manual">Lab manual</a>
+    </nav>
+  </div>
+</header>
+<div id="view" class="view"></div>
+<footer class="foot">
+  <div class="wrap foot-in">
+    <span>Diagrams are reproduced from the lab manual; every specimen gives its page number.</span>
+    <a href="#manual">Read the lab manual &rarr;</a>
+  </div>
+</footer>
+<script src="site_data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

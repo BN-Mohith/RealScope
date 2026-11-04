@@ -1,0 +1,15 @@
+Specimens without a supplied image yet.
+Fix: correct the link in Data/input/specimens.csv, or save the image yourself (from your browser) as
+    C:\Users\bnmoh\OneDrive\Desktop\Data Visualization and Story\RealScope\RealScope\Data\real_slide_images\manual\<image_id or figure name>.jpg     e.g. img_016_01.jpg
+then run Scripts/run_all.py again. Network/server errors are retried automatically;
+for links the site refused or that gave no image, add --retry-failed to try them again.
+
+Row  12  Interphase  (img_016_01)
+         link : https://www.thoughtco.com/thmb/KxJzvHG7CNQicuLo3zzECsnzhNQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/interphase-58e3d4a45f9b58ef7e071ea0.jpg
+         why  : HTTP 460 <none>: the site returned an error (it may be temporarily down)
+Row  44  4-celled embryo sac stage  (img_034_02)
+         link : https://www.researchgate.net/profile/A-Timonin/publication/289390127/figure/fig5/AS:667841363714061@1536237197723/Embryo-sac-development-A-2-nucleate-embryo-sac-B-4-nucleate-embryo-sac-C-7-celled.png
+         why  : HTTP 403: the site does not allow downloads by scripts - save the image yourself into the manual folder
+Row  53  Plasmodium vivax  (img_042_02)
+         link : https://pixnio.com/free-images/science/microscopy-images/malaria-plasmodium/this-blood-smear-micrograph-revealed-the-presence-of-plasmodium-vivax-ring-stage-parasites-960x639.jpg
+         why  : HTTP 403: the site does not allow downloads by scripts - save the image yourself into the manual folder

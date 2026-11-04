@@ -1,0 +1,54 @@
+﻿csv_no,figure,image_id,printed_page,pdf_page,diagram,supplied_image,image_note,link
+1,Monolocular ovary (T.S.),img_004_01,3,4,ok,ok,,https://thumbs.dreamstime.com/b/reproductive-cells-flowering-plants-under-microscopic-reproductive-cells-flowering-plants-under-microscopic-lab-268700404.jpg?w=576
+2,Bilocular ovary (T.S.),img_004_02,3,4,ok,ok,,https://images.openai.com/static-rsc-4/R76BoziJbyhcyuhbbSYZHYi292AMZ3toz0FGSv5BXd5fQ5rV0GK1mxFVXs9kuqO2AvwHItNGla9lA3VYUbGBPNgc-TqNYV-NcOH_HruD-MAj_k53ts4CLpK0lzi3PCQk_wmDti0m55kCI9XrjiaVmUH6nR7fXwcwU6uiv4Sy68Y3AKPZaG-LztwAckbTULSj?purpose=fullsize
+3,Trilocular ovary (T.S.),img_004_03,3,4,ok,ok,,https://images.openai.com/static-rsc-4/jnglzJ_fySbKl5afhp_GQqb2cUQtUDNUDz9FREl8z8jIRCZ_-DYXB2ObLA_Q56I4gthLY7fVPbBg1XSIj4wTmuxOg1mb4CLDMBVDf9lHmZf3_lqGkT8zxV5LRmUzFjEV6TihpS90uiOzoFp5H3HQxLCnRM3nVVdI4TkjQdxwCc3tuFtgNWdbzv0N9UAIhWyr?purpose=fullsize
+4,Tetralocular ovary (T.S.),img_004_04,3,4,ok,ok,,https://images.openai.com/static-rsc-4/9tVseTFv5GmQXVZYp2KNGKHkn1asu5iOpcBrsq0zhKor-RWK8MgoZBRPSmGB7kdYUqh0a64YJx7yWwMrsICv9gzUQgi28XZO0b1pYif9QqLb1k4Ik6JbjvP_nKF6dCcVX75aGXJYSEbPtrSBSCY_jOgcPnXVF2-b_nmxbHo29XukYgCY-ayd7jmDT4nVH8jd?purpose=fullsize
+5,Pentalocular ovary (T.S.),img_004_05,3,4,ok,ok,,http://cupac.bh.cornell.edu/cupac_images/2012_05_09_5/0000147.2.tif.jpg
+6,T.S. of anther,img_006_01,5,6,ok,ok,,https://thumbs.dreamstime.com/b/lily-anther-sporogenous-under-microscopic-education-laboratory-lily-anther-sporogenous-under-microscopic-135991497.jpg?w=992
+7,T.S. of hibiscus ovary,img_006_02,5,6,ok,ok,,https://live.staticflickr.com/3616/3379165990_9cc9ec3038_b.jpg
+8,Microscopic field: germination of pollen grains,img_008_01,7,8,ok,ok,,https://image.slidesharecdn.com/pollengerminationundermicroscope-110519175726-phpapp02/75/Pollen-germination-under-microscope-7-2048.jpg
+9,Mature pollen grain,img_008_02,7,8,ok,ok,,https://www.pollenstiftung.de/fileadmin/_processed_/e/8/csm_Betula_Berlin_MW_20180418_web_f9cf121b8c.jpg
+10,Germinated pollen grain with pollen tube,img_008_03,7,8,ok,ok,,https://images.openai.com/static-rsc-4/1ghEjNckjfsdHbI77Qn_fpy0vs7fyiArRrLL823WLM-I-2CPB1NdqY7vestLkRT9UUJfDVmOep--HF_DYrgwOBurY-nvgnl6c61jt_CIjrzuo2bmCGQZBmEEcQyenweM1xskBPB_5vIKfXGiG5-fhffVIZva-yLliRaeJaDRhjdO9-38XkM87x7pNBgppeFK?purpose=fullsize
+11,Nuclear stained plant cells (onion root tip),img_012_01,11,12,ok,ok,,https://bio.libretexts.org/@api/deki/files/26889/Interphase_to_Prophase.jpg?revision=1&size=bestfit&width=496&height=455
+12,Interphase,img_016_01,15,16,ok,loaded from its link,HTTP 460 <none>: the site returned an error (it may be temporarily down),https://www.thoughtco.com/thmb/KxJzvHG7CNQicuLo3zzECsnzhNQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/interphase-58e3d4a45f9b58ef7e071ea0.jpg
+13,Prophase,img_016_02,15,16,ok,ok,,http://sciences.usca.edu/biology/zelmer/122/celldivision/mitosis/onionprophase.jpg
+14,Metaphase,img_016_03,15,16,ok,ok,,https://i.ytimg.com/vi/GpS-kBBx-Oc/sddefault.jpg
+15,Anaphase,img_016_04,15,16,ok,ok,,https://s-media-cache-ak0.pinimg.com/736x/66/2a/18/662a18807fcb9ac3ebd8cf3ca4017f35.jpg
+16,Telophase,img_016_05,15,16,ok,ok,,https://sciences.usca.edu/biology/zelmer/122/celldivision/mitosis/oniontelophase.jpg
+17,Daughter cells,img_016_06,15,16,ok,ok,,https://micro.magnet.fsu.edu/micro/gallery/mitosis/daughter.jpg
+18,Pre-leptotene,img_018_01,17,18,ok,ok,,https://www.utsc.utoronto.ca/people/hasenkampf/wp-content/uploads/sites/32/2022/02/Image-1-Premeiotic-lily-cell.jpg
+19,Leptotene,img_018_02,17,18,ok,ok,,https://images.openai.com/static-rsc-4/UKuMkCAImDNVTDUR_bpJ3DQvU57pLERVy9WmHdXaztgonxT96Jmz9j0XuUTNXtUDfTCoRikesYjxKBv1wLmRpPB6kNy0rTGtae_kpS8OLYBjQDis3618X0DqmRGAe1Fo5sRLcwABY-2P83lWql5l24Za9yBYnyS--n4yJI3iqxOJqD53zHXjTMLelNj3QbOM?purpose=fullsize
+20,Zygotene,img_018_03,17,18,ok,ok,,https://cildata.crbs.ucsd.edu/media/thumbnail_display/54548/54548_thumbnailx512.jpg
+21,Pachytene,img_018_04,17,18,ok,ok,,https://cildata.crbs.ucsd.edu/media/thumbnail_display/54549/54549_thumbnailx512.jpg
+22,Diplotene,img_018_05,17,18,ok,ok,,https://www.utsc.utoronto.ca/people/hasenkampf/wp-content/uploads/sites/32/2022/02/Image-5-Diplotene.jpg
+23,Diakinesis,img_018_06,17,18,ok,ok,,https://images.openai.com/static-rsc-4/kwkwX-iwZse7idk9SRz8W8bUL3QN5KMArtl8qPhd6OLmIXOfhY5VbwIvdUKXPKPgO9KQ0HaZj7ZAkIGU0s_B6koFf0sw-BclNqu8gXd24Ix48SZ6nHDRP_YZRA0bnCUuD4qnryuzxAZlfKUPPq-eoPdKQ9f6Q1OJGFBVT7yqbgBinMxvIYoWTehYF6H-zSUH?purpose=fullsize
+24,Metaphase I,img_020_01,19,20,ok,ok,,https://cildata.crbs.ucsd.edu/media/thumbnail_display/54552/54552_thumbnailx512.jpg
+25,Anaphase I,img_020_02,19,20,ok,ok,,https://www.utsc.utoronto.ca/people/hasenkampf/wp-content/uploads/sites/32/2022/02/Image-10-Anaphase-I.jpg
+26,Telophase I,img_020_03,19,20,ok,ok,,https://www.utsc.utoronto.ca/people/hasenkampf/wp-content/uploads/sites/32/2022/02/Image-11-Telophase-I.jpg
+27,Prophase II,img_022_01,21,22,ok,ok,,https://www.utsc.utoronto.ca/people/hasenkampf/wp-content/uploads/sites/32/2022/02/Image-12-Prophase-II.jpg
+28,Metaphase II,img_022_02,21,22,ok,ok,,https://www.utsc.utoronto.ca/people/hasenkampf/wp-content/uploads/sites/32/2022/02/Image-13-Metaphase-II.jpg
+29,Anaphase II,img_022_03,21,22,ok,ok,,https://www.utsc.utoronto.ca/people/hasenkampf/wp-content/uploads/sites/32/2022/02/Image-14-Anaphase-II--e1645911344372.jpg
+30,Telophase II,img_022_04,21,22,ok,ok,,https://www.utsc.utoronto.ca/people/hasenkampf/wp-content/uploads/sites/32/2022/02/Image-15-Telophase-II.jpg
+31,Daphnia,img_032_01,31,32,ok,ok,,https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/DaphniaMicroscope.jpg/960px-DaphniaMicroscope.jpg
+32,Copepod,img_032_02,31,32,ok,ok,,https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Cop%C3%A9podo_campo_oscuro.jpg/500px-Cop%C3%A9podo_campo_oscuro.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20231219021310
+33,Chlamydomonas,img_032_03,31,32,ok,ok,,https://biosci.sierracollege.edu/resources/mslides-2016/images-all-2016/0016.jpg
+34,Volvox,img_032_04,31,32,ok,ok,,https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Microscopic_Picture_of_Volvox_w.m._Algae.jpg/960px-Microscopic_Picture_of_Volvox_w.m._Algae.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20171201145139
+35,Euglena,img_032_05,31,32,ok,ok,,https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Euglena-1.jpg/960px-Euglena-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20171231142550
+36,Amoeba,img_032_06,31,32,ok,ok,,https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Amoeba_proteus.jpg/960px-Amoeba_proteus.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20130201223930
+37,Paramecium,img_032_07,31,32,ok,ok,,https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Paramecium_bursaria.jpg/960px-Paramecium_bursaria.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20151129074027
+38,Vorticella,img_032_08,31,32,ok,ok,,https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Vorticella_Collserola.jpg/960px-Vorticella_Collserola.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20071110133842
+39,Spirulina,img_032_09,31,32,ok,ok,,https://thumbs.dreamstime.com/b/spirulina-cyanobacteria-helical-filaments-under-microscope-white-background-spirulina-cyanobacteria-helical-filaments-under-454415988.jpg?w=768
+40,Nostoc,img_032_10,31,32,ok,ok,,https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Nostocmicro.jpg/960px-Nostocmicro.jpg
+41,Spirogyra,img_032_11,31,32,ok,ok,,https://cdn11.bigcommerce.com/s-gresmczhg1/images/stencil/640w/uploaded_images/spirogyra-algae100xb.jpg?t=1758571884
+42,Rotifer,img_032_12,31,32,ok,ok,,https://upload.wikimedia.org/wikipedia/commons/a/a4/Rotifer_animation-first_still.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled&_=20060504160709
+43,2-celled embryo sac stage,img_034_01,33,34,ok,ok,,https://images.openai.com/static-rsc-4/fYnd-P9qRMl4Ssp8GeDtZaFXoGrSnOdVcCFGG--HUI3aKvQfXu78EJod-mXL_AkvBhy3JOmlLetqw8tXapJZVrFI8-bFdMxlQYwLiV1gSCzOjtCS1nMNDMPJ1WLDWxYBZ72tOco-0oqS-8SKOUF2ADZd6BjpLxH5Nsa4gs-CAUGsqmOKz_oscAc_8KYKgBxo?purpose=fullsize
+44,4-celled embryo sac stage,img_034_02,33,34,ok,loaded from its link,HTTP 403: the site does not allow downloads by scripts - save the image yourself into the manual folder,https://www.researchgate.net/profile/A-Timonin/publication/289390127/figure/fig5/AS:667841363714061@1536237197723/Embryo-sac-development-A-2-nucleate-embryo-sac-B-4-nucleate-embryo-sac-C-7-celled.png
+45,8-celled embryo sac stage,img_034_03,33,34,ok,ok,,https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/8-cell_stage.jpg/500px-8-cell_stage.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20151130224407
+46,8-nucleate embryo sac stage,img_034_04,33,34,ok,ok,,https://images.openai.com/static-rsc-4/mOgF9pKA0ULXBeQLr4LsVHd11GWaplwPXPm8JpnYvE0val4Bsv5PpMSKPc4tCJy7MrnIohPtri8qTv1c6b5DZ3iepjNTyUYl8-20OnFTM3irnLlloz-IQpMKvgu-Rk_SBCq-r7E_vxbsTT4fOYRB0AloEy6R_ggfRMEhBYibpJerrdj4cpDZMfBrj-f9U5Bf?purpose=fullsize
+47,Mature embryo sac,img_034_05,33,34,ok,ok,,https://blogs.ubc.ca/biology210/files/2014/12/10a1.jpg
+48,L.S. of ovule showing female gametophyte,img_034_06,33,34,ok,ok,,https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00709-020-01584-z/MediaObjects/709_2020_1584_Fig3_HTML.png?as=webp
+49,T.S. of mammalian testis,img_036_01,35,36,ok,ok,,https://thumbs.dreamstime.com/b/microscopic-section-testis-t-s-25712767.jpg?w=768
+50,T.S. of mammalian ovary,img_038_01,37,38,ok,ok,,https://thumbs.dreamstime.com/b/section-mammalian-ovary-under-microscope-mammalian-ovary-under-microscope-follicles-eggs-different-243085604.jpg?w=992
+51,V.S. of mammalian blastocyst,img_040_01,39,40,ok,ok,,https://t3.ftcdn.net/jpg/10/61/71/70/360_F_1061717008_gzh1VWBEvyQa6fofzpcFRjeWKDBcZGJp.jpg
+52,Entamoeba histolytica,img_042_01,41,42,ok,ok,,https://upload.wikimedia.org/wikipedia/commons/9/93/Entamoeba_histolytica.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original
+53,Plasmodium vivax,img_042_02,41,42,ok,loaded from its link,HTTP 403: the site does not allow downloads by scripts - save the image yourself into the manual folder,https://pixnio.com/free-images/science/microscopy-images/malaria-plasmodium/this-blood-smear-micrograph-revealed-the-presence-of-plasmodium-vivax-ring-stage-parasites-960x639.jpg

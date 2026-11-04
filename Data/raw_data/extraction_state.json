@@ -1,0 +1,33 @@
+{
+ "fingerprint": {
+  "pdf_sha256": "ffbca05468247dcab8a1fe4043936f2fb3938f3179cd834c4ab19f99a7ae9c3c",
+  "printed_pages": [
+   3,
+   5,
+   7,
+   11,
+   15,
+   17,
+   19,
+   21,
+   31,
+   33,
+   35,
+   37,
+   39,
+   41
+  ],
+  "settings": {
+   "numbering": "printed",
+   "groups": true,
+   "version": 2
+  },
+  "scripts": {
+   "extraction/common.py": "40961493c3423c1ebeb83fb1bf5ce2a5bdc0b6ea75e4c620990e112fab4eaaef",
+   "extraction/extract_pages.py": "c53c073fcb9f35e83cf2a335fade5e64900f73a8c1ea07aa58b01e016c77f588",
+   "extraction/extract_images_from_pages.py": "1a6313187d566e6d39de0043c3a612ae4d0d297b2e9dd2eb945f40bd1172f324"
+  }
+ },
+ "verified": true,
+ "at": "2026-11-04T04:58:11"
+}
